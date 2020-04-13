@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="50dp"
+    android:layout_marginBottom="20dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<androidx.cardview.widget.CardView
+android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+app:cardElevation="2dp"
+    app:cardUseCompatPadding="true"
+    app:cardCornerRadius="8dp"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/mobileno"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/type"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/mobileno"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/description"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:layout_below="@id/type"
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/completed"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rounded_corner"
+            android:backgroundTint="#35A853"
+            android:text="Completed"
+            android:textSize="10dp"
+            android:textColor="#fff"
+            android:layout_alignParentRight="true"
+            android:layout_width="80dp"
+            android:layout_height="35dp"/>
+<Button
+    android:id="@+id/viewonmap"
+    android:background="@drawable/rounded_corner"
+    android:layout_width="110dp"
+    android:layout_marginLeft="20dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginBottom="20dp"
+    android:text="view on map"
+    android:textColor="#fff"
+    android:layout_marginTop="20dp"
+    android:backgroundTint="#35A853"
+    android:layout_below="@id/description"
+    android:layout_height="35dp"/>
+        <Button
+            android:id="@+id/contact"
+            android:background="@drawable/rounded_corner"
+            android:layout_width="100dp"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentRight="true"
+           android:text="Call"
+            android:layout_marginTop="21dp"
+            android:backgroundTint="#35A853"
+            android:textColor="#fff"
+            android:layout_marginBottom="20dp"
+           android:layout_below="@id/description"
+            android:layout_height="35dp"/>
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
+</RelativeLayout>

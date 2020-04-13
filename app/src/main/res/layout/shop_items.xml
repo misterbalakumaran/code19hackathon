@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<EditText
+    android:id="@+id/mobileno"
+    android:hint="Enter your mobileno"
+    android:layout_margin="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/items"
+        android:layout_below="@id/mobileno"
+        android:hint="Enter items you need"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/submit"
+        android:text="submit"
+        android:textColor="#fff"
+        android:background="@drawable/rounded_corner"
+    android:layout_marginBottom="20dp"
+        android:backgroundTint="#35A853"
+        android:layout_centerHorizontal="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/items"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"/>
+</RelativeLayout>

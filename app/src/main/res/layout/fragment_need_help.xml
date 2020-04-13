@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".NavigationNgo.help_other">
+    <TextView
+        android:id="@+id/help_pro"
+        android:text="Help Needed"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/search"
+        android:layout_marginLeft="50dp"
+        android:hint="search by place"
+        android:textAlignment="center"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/help_pro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@id/search"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerView"
+
+        >
+
+    </androidx.recyclerview.widget.RecyclerView>
+</RelativeLayout>

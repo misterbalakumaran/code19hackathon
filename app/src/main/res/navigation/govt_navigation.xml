@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/govt_navigation"
+    app:startDestination="@+id/addMap">
+
+    <fragment
+        android:id="@+id/addMap"
+        android:name="com.example.code19india.GovtNavigation.ui.Map.AddMapValues"
+        android:label="AddMapValues"
+        tools:layout="@layout/fragment_add_map_values" />
+    <fragment
+        android:id="@+id/tracker"
+        android:name="com.example.code19india.Navigation.ui.home.HomeFragment"
+        android:label="AddMapValues"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/helpprovide"
+        android:name="com.example.code19india.NavigationNgo.help_other"
+        android:label="HelpOther"
+        tools:layout="@layout/fragment_help_other" />
+    <fragment
+        android:id="@+id/helpneeded"
+        android:name="com.example.code19india.NavigationNgo.NeedHelp"
+        android:label="Need Help"
+        tools:layout="@layout/fragment_need_help" />
+
+
+</navigation>

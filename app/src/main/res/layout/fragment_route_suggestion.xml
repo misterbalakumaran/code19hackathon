@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Navigation.ui.RouteSuggestion">
+<EditText
+    android:id="@+id/start"
+    android:hint="Starting Point"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginBottom="50dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/end"
+        android:layout_below="@id/start"
+        android:hint="End Point"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+<Button
+    android:id="@+id/suggest"
+    android:layout_below="@id/end"
+    android:layout_marginTop="40dp"
+    android:text="Suggest"
+    android:textColor="#fff"
+    android:background="#35A853"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"/>
+</RelativeLayout>
